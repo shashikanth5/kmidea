@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha384-abc123..."
+      crossorigin="anonymous"
+    />
+
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Active</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav> -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/K MEDIA LOGO GOLD.png" alt="Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav mx-auto text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./About-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+              </li>
+            </ul>
+            <button class="btn btn-primary" type="button">
+              <a class="nav-link" href="./Contact-us.html">Contact us</a>
+            </button>
+            <!-- <div class="mx-auto text-center">
+              <span class="navbar-text"> Home</span>
+              <span class="navbar-text">About Us</span>
+              <span class="navbar-text"> Services</span>
+              <span class="navbar-text"> Gallery </span>
+            </div> -->
+          </div>
+
+          <!-- <button class="btn btn-primary" type="button">Contact us</button> -->
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="./images/image 1.png"
+                class="d-block w-100 img-fluid"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="./images/image 1.png"
+                class="d-block w-100 img-fluid"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/image 1.png"
+                class="d-block w-100 img-fluid"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class="container-fluid h-100 logos-slider">
+          <div class="row align-items-center h-100">
+            <div class="container rounded">
+              <div class="slider">
+                <div class="logos">
+                  <i class="">
+                    <img src="./images/clients/Logo-6.png" alt="logo6" />
+                  </i>
+                  <i class="">
+                    <img src="./images/clients/logo5.png" alt="logo6" />
+                  </i>
+                  <i class="">
+                    <img src="./images/clients/logo8.png" alt="logo6" />
+                  </i>
+                  <i class="">
+                    <img src="./images/clients/logo9.png" alt="logo6" />
+                  </i>
+                  <i class=""
+                    ><img src="./images/clients/Logo-7.png" alt="logo6"
+                  /></i>
+                </div>
+                <div class="logos">
+                  <i class="">
+                    <img src="./images/clients/Logo-6.png" alt="logo6" />
+                  </i>
+                  <i class="">
+                    <img src="./images/clients/logo5.png" alt="logo6" />
+                  </i>
+                  <i class="">
+                    <img src="./images/clients/logo8.png" alt="logo6" />
+                  </i>
+                  <i class="">
+                    <img src="./images/clients/logo9.png" alt="logo6" />
+                  </i>
+                  <i class=""
+                    ><img src="./images/clients/Logo-7.png" alt="logo6"
+                  /></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col-sm-6 p-3">
+              <hr
+                style="border-top: 5px solid #b27e2a; width: 70px; opacity: 1"
+              />
+
+              <h2 class="aboutus-head">About K Media Enterprise</h2>
+              <p class="aboutus-text">
+                K Media Enterprise, founded by Manikanta and Tharun Kaja in the
+                USA, is a pioneering Ad-Tech company specializing in Digital
+                Out-of-Home (DOOH) advertising. We are dedicated to delivering
+                high-impact, interactive advertising solutions through our
+                state-of-the-art software and customized hardware. Our unique
+                approach allows us to serve businesses of all sizes, offering
+                unparalleled geographical reach in high-traffic locations such
+                as restaurants, hospitals, grocery stores, and residential
+                areas. With our expertise in digital media and wireless
+                technology, we provide seamless, instant content updates and
+                comprehensive display and kiosk solutions, helping brands
+                connect with their audiences like never before.
+              </p>
+              <button type="button" class="btn btn-outline-dark">
+                See more Informations
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-bar-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8m-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="col-sm-6 p-3">
+              <img
+                src="./images/Abou-us-Video.png"
+                class="img-fluid"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container features">
+          <div class="row">
+            <div class="col-sm-4 features1">
+              <img
+                src="./images/tabler-icon-device-desktop.png"
+                alt="desktop-icon"
+              />
+              <p class="h5">3000+</p>
+              <p>Residential and Commercial Screens</p>
+            </div>
+            <div class="col-sm-4 features2">
+              <img src="./images/tabler-icon-eye-dollar.png" alt="eye-dollar" />
+              <p class="h5">20 Lakh+</p>
+              <p>Daily Impressions</p>
+            </div>
+            <div class="col-sm-4 features3">
+              <img src="./images/tabler-icon-windsock.png" alt="windsock" />
+              <p class="h5">10,000+</p>
+              <p>Successful Campaigns Launched</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container Services">
+          <h2 class="text-center">Why K Media Enterprise?</h2>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="icon icon-shape icon-shape-secondary rounded-circle">
+                <img
+                  src="./images/Bookmark.png"
+                  alt="Patented"
+                  class="services-icons"
+                />
+              </div>
+              <h2 class="h5 my-3">Patented Software</h2>
+              <p>
+                A Website is an extension of yourself and we can help you to
+                express it properly. Your website is your number one marketing
+                asset because we live in a digital age.
+              </p>
+            </div>
+            <div class="col-sm-3">
+              <div class="icon icon-shape icon-shape-secondary rounded-circle">
+                <img
+                  src="./images/Bookmark.png"
+                  alt="Patented"
+                  class="services-icons"
+                />
+              </div>
+              <h2 class="h5 my-3">Brand Presence</h2>
+              <p>
+                A Website is an extension of yourself and we can help you to
+                express it properly. Your website is your number one marketing
+                asset because we live in a digital age.
+              </p>
+            </div>
+            <div class="col-sm-3">
+              <div class="icon icon-shape icon-shape-secondary rounded-circle">
+                <img
+                  src="./images/Bookmark.png"
+                  alt="Patented"
+                  class="services-icons"
+                />
+              </div>
+              <h2 class="h5 my-3">ROI</h2>
+              <p>
+                A Website is an extension of yourself and we can help you to
+                express it properly. Your website is your number one marketing
+                asset because we live in a digital age.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="icon icon-shape icon-shape-secondary rounded-circle">
+                <img
+                  src="./images/Bookmark.png"
+                  alt="Patented"
+                  class="services-icons"
+                />
+              </div>
+              <h2 class="h5 my-3">Target Audience</h2>
+              <p>
+                A Website is an extension of yourself and we can help you to
+                express it properly. Your website is your number one marketing
+                asset because we live in a digital age.
+              </p>
+            </div>
+            <div class="col-sm-3">
+              <div class="icon icon-shape icon-shape-secondary rounded-circle">
+                <img
+                  src="./images/Bookmark.png"
+                  alt="Patented"
+                  class="services-icons"
+                />
+              </div>
+              <h2 class="h5 my-3">High Buying Power</h2>
+              <p>
+                A Website is an extension of yourself and we can help you to
+                express it properly. Your website is your number one marketing
+                asset because we live in a digital age.
+              </p>
+            </div>
+            <div class="col-sm-3">
+              <div class="icon icon-shape icon-shape-secondary rounded-circle">
+                <img
+                  src="./images/Bookmark.png"
+                  alt="Patented"
+                  class="services-icons"
+                />
+              </div>
+              <h2 class="h5 my-3">Higher Ad Engagement</h2>
+              <p>
+                A Website is an extension of yourself and we can help you to
+                express it properly. Your website is your number one marketing
+                asset because we live in a digital age.
+              </p>
+            </div>
+          </div>
+        </div>
+        <section class="client pt-3 pb-5">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-12">
+                <h3 class="p-text">Why customers love</h3>
+                <hr
+                  class="bg-white mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 100px; height: 3px"
+                />
+                <p class="fw-bold">working with us</p>
+              </div>
+            </div>
+            <div class="row align-items-md-center">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div
+                  id="carouselExampleCaptions"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row p-4">
+                        <div class="t-card">
+                          <i class="fa fa-quote-left" aria-hidden="true"></i>
+                          <p class="lh-lg">
+                            Lorem Ipsum ist ein einfacher Lorem Ipsum ist in der
+                            Industrie bereits der iste natus error sit
+                            voluptatem accusantium totam rem aperiam, eaque ipsa
+                            quae ab illo architecto beatae vitae dicta sunt
+                            explicabo.
+                          </p>
+                          <i class="fa fa-quote-right" aria-hidden="true"></i
+                          ><br />
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-2 pt-3">
+                            <img
+                              src="https://unsplash.com/photos/OhKElOkQ3RE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
+                              class="rounded-circle img-responsive img-fluid"
+                            />
+                          </div>
+                          <div class="col-sm-10">
+                            <div class="arrow-down d-none d-lg-block"></div>
+                            <h4><strong>Jack Mathews</strong></h4>
+                            <p class="testimonial_subtitle">
+                              <span>Global Brand manager</span><br />
+                              <span>Artc Cafe</span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row p-4">
+                        <div class="t-card">
+                          <i class="fa fa-quote-left" aria-hidden="true"></i>
+                          <p class="lh-lg">
+                            Lorem Ipsum ist ein einfacher Lorem Ipsum ist in der
+                            Industrie bereits der perspiciatis unde omnis iste
+                            natus error sit laudantium, totam rem aperiam, eaque
+                            ipsa quae architecto beatae vitae dicta sunt
+                          </p>
+                          <i class="fa fa-quote-right" aria-hidden="true"></i
+                          ><br />
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-2 pt-4">
+                            <img
+                              src="https://imgur.com/gallery/QKv8w2k"
+                              class="rounded-circle img-responsive img-fluid"
+                            />
+                          </div>
+                          <div class="col-sm-10">
+                            <div class="arrow-down d-none d-lg-block"></div>
+                            <h4><strong>Esther Zawadi</strong></h4>
+                            <p class="testimonial_subtitle">
+                              <span> digital strategist</span><br />
+                              <span>Vaxa digital</span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row p-4">
+                        <div class="t-card">
+                          <i class="fa fa-quote-left" aria-hidden="true"></i>
+                          <p class="lh-lg">
+                            Lorem Ipsum ist ein einfacher Demo-Text für die
+                            Print- und Schriftindustrie. Lorem Ipsum ist in der
+                            Industrie bereits der Standard Demo-Text "Sed ut .
+                          </p>
+                          <i class="fa fa-quote-right" aria-hidden="true"></i
+                          ><br />
+                        </div>
+                        <div class="row text-lg-start">
+                          <div class="col-sm-2 pt-4 align-items-center">
+                            <img
+                              src="images/clients/profile-5.png"
+                              class="rounded-circle img-responsive img-fluid"
+                            />
+                          </div>
+                          <div class="col-sm-10">
+                            <div class="arrow-down d-none d-md-block"></div>
+                            <h4><strong>Patrick muriungi</strong></h4>
+                            <p class="testimonial_subtitle">
+                              <span>Web Technologist</span><br />
+                              <span>Vaxa digital</span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="controls push-right">
+                  <a
+                    class="left fa fa-chevron-left btn btn-outline-light"
+                    href="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+                  ></a>
+                  <a
+                    class="right fa fa-chevron-right btn btn-outline-light"
+                    href="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-day-time"></div>
+          <div class="row">
+            <div class="col-lg-3">
+              <img src="./images/K MEDIA LOGO - WHiTE 1.png" alt="logo-white" />
+              <p>
+                Lorem Ipsum ist einfach Dummy-Text der Druck- und Satzindustrie.
+                Lorem Ipsum war der Standard der Branche Lorem Ipsum ist einfach
+                Dummy-Text der Druck- und Satzindustrie. Lorem Ipsum war der
+                Standard der Branche
+              </p>
+            </div>
+
+            <div class="col-md-3 footeer-links">
+              <h4>Links</h4>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our services</a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">How it works </a></li>
+                <li><a href="#">Blog </a></li>
+                <li><a href="#">Careers </a></li>
+                <li><a href="#">Areas We Serve </a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-3">
+              <h4>Contact us</h4>
+
+              <ul class="address1">
+                <li>
+                  <i class="fa fa-map-marker"></i>Lorem Ipsum 132 xyz Lorem
+                  Ipsum
+                </li>
+                <li>
+                  <i class="fa fa-envelope"></i
+                  ><a href="mailto:#">info@test.com</a>
+                </li>
+                <li>
+                  <i class="fa fa-mobile" aria-hidden="true"></i>
+                  <a href="tel:12 34 56 78 90">12 34 56 78 90</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4>Follow us</h4>
+              <ul class="social-icon">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="copyright text-uppercase">
+                © 2023 Copyright by K Media Enterprises. All rights reserved.
+              </p>
+            </div>
+            <!-- <div class="col-sm-7">
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Our services</a></li>
+                          <li><a href="#">Contact Us</a></li>
+                      </ul>
+                  </div> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
